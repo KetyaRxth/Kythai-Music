@@ -1,0 +1,37 @@
+module.exports = {
+  token: process.env.token || process.env.DISCORD_TOKEN || "",
+  prefix: "?",
+  color: "#2b2d31",
+  Mongo: process.env.MONGO_URI || process.env.Mongo || "",
+  ownerIDS: ["1383706658315960330"],
+  // Dashboard Configuration
+  clientId: process.env.CLIENT_ID || "1438085532809822311",
+  clientSecret: process.env.CLIENT_SECRET || "",
+  dashboardUrl: process.env.DASHBOARD_URL || "http://localhost:3000", // http://localhost:3000/auth/discord/callback
+  sessionSecret: process.env.SESSION_SECRET || "",
+  vote: false,
+  image: "https://media.discordapp.net/attachments/1369713527106830357/1369713669834932304/Blue_and_White_Simple_Business_Plan_Presentation_20250507_220058_0000.png?ex=681cdcc2&is=681b8b42&hm=5cf3a2524cb221053ed0f2354a81e8776db5c51f2a8e7b6ffb9b742222d31311&",
+  setupBgLink: "https://media.discordapp.net/attachments/1369713527106830357/1369715103452364860/Red_Black_Modern_Technology_Presentation_20250507_220601_0000.png?ex=681cde18&is=681b8c98&hm=18a682388776b3a54ee5e538913b243b0c1f0f52ed6740e715f9d8db61b11a88&",
+  invite: "https://discord.gg/RPuK3n8YBT",
+  inviteTwo: "https://discordapp.com/oauth2/authorize?client_id=1340602825566195834&permissions=45768987437137&scope=bot%20applications.commands",
+  inviteThree: "https://discordapp.com/oauth2/authorize?client_id=1380994881731952741&permissions=45768987437137&scope=bot%20applications.commands",  
+  ssLink: "https://discord.gg/RPuK3n8YBT",
+  topGg: "https://top.gg/bot",
+  topgg_Api: process.env.TOPGG_API || "",
+  noprefixLog: process.env.NOPREFIX_LOG_WEBHOOK || "",
+  cmd_log: process.env.CMD_LOG_WEBHOOK || "",
+  error_log: process.env.ERROR_LOG_WEBHOOK || "",
+  blacklist_log: process.env.BLACKLIST_LOG_WEBHOOK || "",
+  join_log: process.env.JOIN_LOG_WEBHOOK || "",
+  leave_log: process.env.LEAVE_LOG_WEBHOOK || "",
+  spotiId: process.env.SPOTIFY_ID || "",
+  spotiSecret: process.env.SPOTIFY_SECRET || "",
+  nodes: [
+    {
+      name: 'Titan X Dev',
+      url: process.env.LAVALINK_URL || 'lavalink.jirayu.net:13592',
+      auth: process.env.LAVALINK_PASSWORD || 'youshallnotpass', 
+      secure: process.env.LAVALINK_SECURE === 'true' || false,
+    },
+  ],
+};
