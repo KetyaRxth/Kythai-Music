@@ -984,7 +984,7 @@ app.get('/', async (req, res) => {
               `}
               <a href="${config.invite}" target="_blank" class="btn btn-outline" style="padding: 18px 40px; font-size: 18px;">
                 <i class="fas fa-plus"></i>
-                Invite TitanXMusic
+                Invite Kythia
               </a>
             </div>
             
