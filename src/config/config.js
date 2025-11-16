@@ -31,7 +31,7 @@ module.exports = {
       name: 'Titan X Dev',
       url: process.env.LAVALINK_URL || 'lavalink.jirayu.net:13592',
       auth: process.env.LAVALINK_PASSWORD || 'youshallnotpass', 
-      secure: process.env.LAVALINK_SECURE === 'true' || false,
+      secure: process.env.LAVALINK_SECURE === 'false' || false,
     },
   ],
 };
