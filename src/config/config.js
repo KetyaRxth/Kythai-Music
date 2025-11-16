@@ -5,9 +5,9 @@ module.exports = {
   Mongo: process.env.MONGO_URI || process.env.Mongo || "",
   ownerIDS: ["733851305759735813"],
   // Dashboard Configuration
-  clientId: process.env.CLIENT_ID || "1438085532809822311",
+  clientId: process.env.CLIENT_ID || "1439252692420792420",
   clientSecret: process.env.CLIENT_SECRET || "",
-  dashboardUrl: process.env.DASHBOARD_URL || "http://localhost:3000", // http://localhost:3000/auth/discord/callback
+  dashboardUrl: process.env.DASHBOARD_URL || "https://kythai-music.onrender.com", // http://localhost:3000/auth/discord/callback
   sessionSecret: process.env.SESSION_SECRET || "",
   vote: false,
   image: "https://media.discordapp.net/attachments/1369713527106830357/1369713669834932304/Blue_and_White_Simple_Business_Plan_Presentation_20250507_220058_0000.png?ex=681cdcc2&is=681b8b42&hm=5cf3a2524cb221053ed0f2354a81e8776db5c51f2a8e7b6ffb9b742222d31311&",
