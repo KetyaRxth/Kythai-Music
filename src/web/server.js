@@ -126,8 +126,8 @@ app.get('/', async (req, res) => {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TitanXMusic - Premium Discord Music Bot | High Quality Audio & 24/7 Uptime</title>
-        <meta name="description" content="TitanXMusic is the ultimate Discord music bot with high-quality audio, 24/7 uptime, and advanced features. Join thousands of servers enjoying crystal clear music.">
+        <title>Kythia - Premium Discord Music Bot | High Quality Audio & 24/7 Uptime</title>
+        <meta name="description" content="Kythia is the ultimate Discord music bot with high-quality audio, 24/7 uptime, and advanced features. Join thousands of servers enjoying crystal clear music.">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -917,7 +917,7 @@ app.get('/', async (req, res) => {
           <div class="nav-container">
             <a href="#" class="logo">
               <i class="fas fa-music"></i>
-              <span>TitanXMusic</span>
+              <span>Kythia</span>
             </a>
             
             <ul class="nav-menu">
@@ -965,7 +965,7 @@ app.get('/', async (req, res) => {
             </h1>
             
             <p>
-              TitanXMusic brings high-quality music streaming to your Discord server with 24/7 uptime, 
+              Kythia brings high-quality music streaming to your Discord server with 24/7 uptime, 
               advanced audio filters, and an intuitive dashboard. Join thousands of servers enjoying 
               the best music experience.
             </p>
